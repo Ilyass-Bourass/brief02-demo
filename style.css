@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+html,
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header,
+nav,
+footer {
+    display:block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+}
+h1{
+  font-size: 36px;
+}
+p {
+  font-size: 12px; 
+  
+}
+
+ul {
+    list-style: none;
+  }
+
+.header{
+  margin:37px 67px;
+}
+
+.header .navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}        
+
+.header ul li a{
+  text-decoration:none;
+  color:#505F98 ;
+}
+
+.header .navbar ul li:hover a {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header .navbar img:hover {
+  opacity:0.5;
+}
+
+.header .navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .navbar ul li {
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.1;
+}
+
+.btn {
+  background: #fff; 
+  color: white;
+  height: px;
+  background-color: #111B47;
+  padding: 1px 26px;
+  text-transform: capitalize;
+  /* display: inline-block; */
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background: #a3ddcb;
+  cursor: pointer;
+}
+
+footer {
+  padding: 68px 165px;
+  background-color: #3f3d56c0;
+}
+
+footer .footer-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.footer-links a {
+  position: relative;
+  padding-right: 30px;
+  top:25px;
+  transition: 0.5;
+}
+
+.footer-links a:hover{
+  font-weight: 700;
+}
+
+.footer-media-icons a {
+  position: relative;
+  padding-left: 30px;
+  top:25px
+}
+
+.footer-media-icons a:hover{
+  opacity: 0.5;
+}
+
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_section01{
+  display: flex;
+  
+}
+.about_section01 .container p {
+  color: #6F7CB2;
+  line-height: 0.5;
+}
+.container_Ttle-Geos{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap:50px 30px;
+}
+.container_Ttle-Geos p{
+  margin-left:52px;
+}
+.about_section02{
+  margin-top: 143px;
+  background-color:hsl(0, 1%, 76%) ;
+  height: 569px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about_section03{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about_section04{
+  background-color:hsl(0, 1%, 76%) ;
+  height: 569px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+
+  
+
