@@ -4,17 +4,23 @@ body{
   margin: 0;
   padding: 0;
   border: 0;
+  overflow-x: hidden;
 }
 
 header,
 nav,
 footer {
     display:block;
+    z-index: 1000;
 }
+
 
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1;
+    background-image: url("images/home/hero.svg");
+    background-repeat: no-repeat;
+    background-position:448px -38px ;
 }
 h1{
   font-size: 36px;
@@ -129,8 +135,9 @@ footer .footer-inner {
   justify-content: space-between;
 }
 
-.about_section01{
+.about_section01 {
   display: flex;
+  margin:91px 167px 0 167px ;
   
 }
 .about_section01 .container p {
@@ -166,6 +173,56 @@ footer .footer-inner {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.home_section01 {
+  height: 856px;
+ 
+}
+/* .home_section01 img {
+  position:relative;
+  margin-top:-171px;
+  margin-right:-120px;
+  float: right;
+  z-index: -1;
+} */
+.home_section01 .parte_left {
+   margin-top: 195px;
+   margin-left: 198px;
+}
+.home_section01 .More{
+  background-color: #fff;
+  color: #111B47;
+}
+.home_section03 {
+  background-color: white;
+  margin-top:0;
+}
+
+.home_section04{
+  background-color: white;
+}
+
+.home_section05{
+  background-image: url("images/home/Rectangle.png");
+  background-repeat: no-repeat;
+  height:886px ;
+  background-position: 84px 0px;
+  background-size: contain;
+  
+}
+
+.home_section05 ,.home_section06{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.home_section06{
+  height: 265px; ;
+}
+
+.home_section06 img:hover {
+  opacity: 0.5;
 }
 
 
